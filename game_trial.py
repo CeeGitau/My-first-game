@@ -1,5 +1,5 @@
 import pygame
-import os   #to enable the program to interact with a directory(folder) on the computer's operating system
+import os  
 pygame.font.init() #you can create a surface with text on it 
 pygame.mixer.init() #for loading and playing sounds
 
@@ -20,7 +20,7 @@ BULLET_FIRE_SOUND = pygame.mixer.Sound(os.path.join('Assets', 'Gun+Silencer.wav'
 MUSIC = pygame.mixer.music.load ('music1.wav')
 pygame.mixer.music.play(-1) #continuously plays the music throughout the game
 
-HEALTH_FONT = pygame.font.SysFont('comicsans', 40) #create a font object from the system fonts
+HEALTH_FONT = pygame.font.SysFont('comicsans', 40) 
 WINNER_FONT = pygame.font.SysFont('comicsans', 110)
 FPS = 60
 VEL = 5
